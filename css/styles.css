@@ -360,6 +360,7 @@ margin-right: auto;
     position: relative;
     overflow: hidden;
     width: calc((100% - 48px) / 3);
+    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-img{
     padding: 32px 16px;
@@ -404,9 +405,9 @@ margin-right: auto;
     left: 0;
     background-color: #4d5ae5;
     color: #f4f4fd;
-    overflow: auto;
-    padding: 40px 32px 164px 32px;
+    overflow: auto; 
     transform: translateY(100%);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-image:hover
 .overlay{
@@ -416,8 +417,17 @@ margin-right: auto;
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
+.overlay-div-min{
+    position: relative;
+    overflow: hidden;
+}
+.page-image{
+    position: absolute;  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    padding: 40px 32px;
+}
 
 
 
