@@ -403,15 +403,22 @@ margin-right: auto;
     height: 100%;
     top: 0;
     left: 0;
+    position: absolute;  
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    padding: 40px 32px;
     background-color: #4d5ae5;
     color: #f4f4fd;
     overflow: auto; 
     transform: translateY(100%);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .li-image:hover
 .overlay{
     transform: translateY(0%);
+}
+.li-image:hover{
     box-shadow: 
     1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -421,13 +428,7 @@ margin-right: auto;
     position: relative;
     overflow: hidden;
 }
-.page-image{
-    position: absolute;  
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em; 
-    padding: 40px 32px;
-}
+
 
 
 
