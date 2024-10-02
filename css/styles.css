@@ -313,6 +313,10 @@ color: #f4f4fd;
 }
 .il-uno{
     width: calc((100% - 72px) / 4);
+    box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 margin-left: auto;
 margin-right: auto;
@@ -387,16 +391,6 @@ margin-right: auto;
     background-color: #f4f4fd;
     margin-bottom: 8px;
 }
-.box-adres{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 8px;
-    margin-bottom: 32px;
-}
 .overlay{
     position: absolute;
     width: 100%;
@@ -427,8 +421,15 @@ margin-right: auto;
     position: relative;
     overflow: hidden;
 }
-
-
+.ul-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 8px;
+}
 
 
 
