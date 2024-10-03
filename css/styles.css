@@ -424,13 +424,13 @@ margin-right: auto;
 .ul-svg{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 24px;
-    margin-right: auto;
-    margin-left: auto;
     margin-top: 8px;
 }
-
+.li-svg{
+    width: 40px;
+    height: 40px;
+}
 
 
 
