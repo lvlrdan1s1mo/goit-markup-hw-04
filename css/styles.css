@@ -431,8 +431,19 @@ margin-right: auto;
     width: 40px;
     height: 40px;
 }
-
-
+.adres-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+.adres-svg:hover,
+.adres-svg:focus{
+    background-color: #404bbf;; 
+}
 
 
 
