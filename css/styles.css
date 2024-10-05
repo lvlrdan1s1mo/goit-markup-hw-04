@@ -469,6 +469,7 @@ margin-right: auto;
 }
 .container-flex{
     display: flex;
+    justify-content: center;
     align-items: baseline;
     margin-right: 120px;
 }
@@ -489,3 +490,13 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #fff;
 }
+.ul-svg-footer{
+    
+}
+
+
+
+
+
+
+
