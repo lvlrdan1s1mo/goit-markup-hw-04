@@ -504,12 +504,18 @@ margin-bottom: 16px;
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-wrapper{
     display: flex;
     flex-wrap: wrap;
 }
-
-
+.adres-svg-footer:hover,
+.adres-svg-footer:focus{
+    background-color: #31d0aa;
+}
+.icon-footer{
+    fill:  #f4f4fd;
+}
 
 
