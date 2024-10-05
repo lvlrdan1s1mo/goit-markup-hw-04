@@ -469,6 +469,7 @@ margin-right: auto;
 }
 .container-flex{
 display: flex;
+display: table-column;
 align-items: baseline;
 margin-right: 120px;
 }
@@ -485,6 +486,7 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
 }
 .ul-svg-footer{
     display: flex;
@@ -492,9 +494,21 @@ color: #fff;
 }
 .container-footer-address{
     display: flex;
+    display: table-column;
 }
-
-
+.adres-svg-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+.container-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
